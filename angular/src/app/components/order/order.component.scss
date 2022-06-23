@@ -1,0 +1,21 @@
+.containtainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+}
+button.mat-focus-indicator {
+  margin: 0 10px;
+}

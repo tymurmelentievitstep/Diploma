@@ -1,0 +1,28 @@
+<div>
+  <p class="title">login</p>
+  <form [formGroup]="loginFormGroup" class="login_container">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Username</mat-label>
+      <input
+        class="reg_input"
+        placeholder="username"
+        formControlName="username"
+        type="text"
+        matInput
+      />
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Password</mat-label>
+      <input
+        class="reg_input"
+        placeholder="password"
+        formControlName="password"
+        type="password"
+        matInput
+      />
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="login()">Login</button>
+  </form>
+</div>

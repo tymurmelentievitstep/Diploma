@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  p {
+    margin: 10px 0;
+  }
+}
+
+.mat-table {
+  width: 50%;
+  margin: 0 auto;
+}
+.mat-focus-indicator {
+  width: 30%;
+  margin: 0 auto;
+}
